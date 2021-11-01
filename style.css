@@ -1,0 +1,39 @@
+/*************** Here we are going to make a background style for body tag, so it will apear on whole webpage 
+**************************************/
+
+body{
+  position: relative; background-image: linear-gradient(to right, #2101b9, #005eec, #0090f8, #00bcee, #00e3e3); min-height: 99vh;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.mt-5,
+.my-5 {
+  margin-top: 0rem !important;
+}
+#hd {
+  width: 100%;
+  height: 390px;
+  margin: 0 0 50px 0;
+}
+.custom-shape-divider-bottom-1610026357 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+.custom-shape-divider-bottom-1610026357 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 183px;
+}
+.custom-shape-divider-bottom-1610026357 .shape-fill {
+  fill: #ffffff;
+}
